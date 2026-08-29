@@ -1,7 +1,7 @@
 
 # RPGDamageOverhaul (RPGDO) Reforged
 
-This is a ported version of httpedor's mod RPGDamageOverhaul for Neoforge 1.21.1, The original shown below.
+# *This is a fork of [httpedor/RPGDamageOverhaul](https://github.com/httpedor/RPGDamageOverhaul), ported from Forge 1.20.1 to NeoForge 1.21.1. Substantially all source files under `src/main/java` have been modified from the original. Licensed under Apache License 2.0.*
 
 RPGDO is a complete overhaul to minecraft's damage system, inspired by [DDD](https://github.com/yeelp/Distinct-Damage-Descriptions) and [Alembic](https://github.com/FoundryMC/Alembic). It changes the armor scaling to be more balanced, and also adds specific armor for specific damages.
 This mod is also very similar to [TheRedBrain's Overhauled Damage](https://modrinth.com/mod/overhauled-damage), but this one lets you create and remove damage classes as you wish, while his comes with a immutable set of damages.

@@ -9,8 +9,8 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.ModContainer;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(RPGDamageOverhaulReforged.MODID)
-public class RPGDamageOverhaulReforged {
+@Mod(RPGDamageOverhaul.MODID)
+public class RPGDamageOverhaul {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "rpgdamageoverhaul";
     // Directly reference a slf4j logger
@@ -18,6 +18,6 @@ public class RPGDamageOverhaulReforged {
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public RPGDamageOverhaulReforged(IEventBus modEventBus, ModContainer modContainer) {
+    public RPGDamageOverhaul(IEventBus modEventBus, ModContainer modContainer) {
     }
 }
