@@ -5,8 +5,15 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "DamageSourcesMixin",
+    "DamageSourceMixin",
     "DefaultAttributeContainerMixin",
-    "LivingEntityMixin"
+    "LivingEntityMixin",
+    "HolderMixin",
+    "MobEntityMixin",
+    "PlayerMixin",
+    "PoisonEffectMixin",
+    "WitherEffectMixin",
+    "SimpleRegistryMixin"
   ],
   "injectors": {
     "defaultRequire": 1
