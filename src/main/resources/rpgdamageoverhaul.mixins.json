@@ -1,12 +1,14 @@
 {
   "required": true,
+  "minVersion": "0.8",
   "package": "com.httpedor.rpgdamageoverhaul.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [],
+  "mixins": [
+    "DamageSourcesMixin",
+    "DefaultAttributeContainerMixin",
+    "LivingEntityMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
-  },
-  "overwrites": {
-    "requireAnnotations": true
   }
 }
