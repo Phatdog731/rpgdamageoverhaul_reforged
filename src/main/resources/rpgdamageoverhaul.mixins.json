@@ -33,7 +33,9 @@
     "simplyswords.ShadowstingMixin",
     "simplyswords.StealSwordMixin",
     "simplyswords.StormbringerMixin",
-    "simplyswords.VolcanicFurySwordMixin"
+    "simplyswords.VolcanicFurySwordMixin",
+    "simplymore.PoisonBoltMixin",
+    "simplymore.VenomMixin"
   ],
   "injectors": {
     "defaultRequire": 1

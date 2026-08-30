@@ -133,11 +133,15 @@ dependencies {
     localRuntime "curse.maven:jade-324717:${jadeversion}"
     compileOnly "curse.maven:simply-swords-659887:${simplyswordsversion}"
     localRuntime "curse.maven:simply-swords-659887:${simplyswordsversion}"
+    compileOnly ("curse.maven:simply-more-1095252:${simplymoreversion}")
+    localRuntime ("curse.maven:simply-more-1095252:${simplymoreversion}")
+    compileOnly "maven.modrinth:6avVoBVB:${simply_tooltipsversion}"
+    localRuntime "maven.modrinth:6avVoBVB:${simply_tooltipsversion}"
     localRuntime "curse.maven:architectury-api-419699:${architecturyversion}"
     localRuntime "curse.maven:fzzy-config-1005914:${fzzy_configversion}"
     localRuntime "curse.maven:kotlin-for-forge-351264:${kotlinversion}"
     compileOnly "curse.maven:better-combat-by-daedelus-639842:${bettercombatversion}"
-    localRuntime("curse.maven:better-combat-by-daedelus-639842:${bettercombatversion}")
+    localRuntime "curse.maven:better-combat-by-daedelus-639842:${bettercombatversion}"
     localRuntime "maven.modrinth:9s6osm5g:${clothconfigversion}"           // Cloth Config 15.0.140+neoforge
     localRuntime "curse.maven:playeranimator-658587:${playeranimatorversion}"  // playerAnimator 2.0.4+1.21.1
     compileOnly("dev.shadowsoffire:ApothicAttributes:${apothic_attributes_version}") {
