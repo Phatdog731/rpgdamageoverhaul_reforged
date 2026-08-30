@@ -131,6 +131,11 @@ dependencies {
     compileOnly(annotationProcessor("com.github.bawnorton.mixinsquared:mixinsquared-common:${mixinsquared_version}"))
     compileOnly "curse.maven:jade-324717:${jadeversion}"
     localRuntime "curse.maven:jade-324717:${jadeversion}"
+    compileOnly "curse.maven:simply-swords-659887:${simplyswordsversion}"
+    localRuntime "curse.maven:simply-swords-659887:${simplyswordsversion}"
+    localRuntime "curse.maven:architectury-api-419699:${architecturyversion}"
+    localRuntime "curse.maven:fzzy-config-1005914:${fzzy_configversion}"
+    localRuntime "curse.maven:kotlin-for-forge-351264:${kotlinversion}"
     compileOnly "curse.maven:better-combat-by-daedelus-639842:${bettercombatversion}"
     localRuntime("curse.maven:better-combat-by-daedelus-639842:${bettercombatversion}")
     localRuntime "maven.modrinth:9s6osm5g:${clothconfigversion}"           // Cloth Config 15.0.140+neoforge

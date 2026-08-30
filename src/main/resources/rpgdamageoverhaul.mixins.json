@@ -13,7 +13,27 @@
     "PlayerMixin",
     "PoisonEffectMixin",
     "WitherEffectMixin",
-    "SimpleRegistryMixin"
+    "SimpleRegistryMixin",
+    "bettercombat.DamageSourcesMixin",
+    "bettercombat.WeaponRegistryMixin",
+    "simplyswords.AbilityMethodsMixin",
+    "simplyswords.EmberIreMixin",
+    "simplyswords.EmberlashMixin",
+    "simplyswords.FireSwordMixin",
+    "simplyswords.FireVortexMixin",
+    "simplyswords.FlamewindMixin",
+    "simplyswords.FrostVortexMixin",
+    "simplyswords.FrostfallMixin",
+    "simplyswords.IcewhisperMixin",
+    "simplyswords.LichbladeMixin",
+    "simplyswords.LivyatanSwordMixin",
+    "simplyswords.MagibladeMixin",
+    "simplyswords.MagislamMixin",
+    "simplyswords.RendSwordMixin",
+    "simplyswords.ShadowstingMixin",
+    "simplyswords.StealSwordMixin",
+    "simplyswords.StormbringerMixin",
+    "simplyswords.VolcanicFurySwordMixin"
   ],
   "injectors": {
     "defaultRequire": 1
