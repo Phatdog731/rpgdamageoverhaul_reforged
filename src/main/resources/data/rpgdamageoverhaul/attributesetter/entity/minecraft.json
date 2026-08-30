@@ -356,13 +356,28 @@
     }
   ],
   "minecraft:breeze": [
-    { "attribute": "rpgdamageoverhaul:arcane.resistance", "value": 0.3, "operation": "BASE" },
-    { "attribute": "rpgdamageoverhaul:physical.resistance", "value": 0.2, "operation": "BASE" }
+    {
+      "attribute": "rpgdamageoverhaul:arcane.resistance",
+      "value": 0.3, "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:physical.resistance",
+      "value": 0.2, "operation": "BASE"
+    }
   ],
   "minecraft:bogged": [
-    { "attribute": "rpgdamageoverhaul:holy.resistance", "value": -0.4, "operation": "BASE" },
-    { "attribute": "rpgdamageoverhaul:wither.resistance", "value": 0.25, "operation": "BASE" },
-    { "attribute": "rpgdamageoverhaul:poison.resistance", "value": 0.75, "operation": "BASE" }
+    {
+      "attribute": "rpgdamageoverhaul:holy.resistance",
+      "value": -0.4, "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:wither.resistance",
+      "value": 0.25, "operation": "BASE"
+    },
+    {
+      "attribute": "rpgdamageoverhaul:poison.resistance",
+      "value": 0.75, "operation": "BASE"
+    }
   ],
   "minecraft:armadillo": [
     { "attribute": "rpgdamageoverhaul:physical.resistance", "value": 0.4, "operation": "BASE" }
