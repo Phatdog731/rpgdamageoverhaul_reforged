@@ -176,7 +176,7 @@ public abstract class LivingEntityMixin extends Entity {
                 armor *= effectiveness;
             }
             double armorToughness = this.getAttributeValue(Attributes.ARMOR_TOUGHNESS);
-            if (ModList.get().isLoaded("attributeslib"))
+            if (ModList.get().isLoaded("apothic_attributes"))
                 cir.setReturnValue(ApothicAttributesCompat.applyAAArmor((LivingEntity)(Object) this, source, amount, (float)armor, (float)armorToughness));
             else
                 cir.setReturnValue(CombatRules.getDamageAfterAbsorb((LivingEntity)(Object) this, amount, source, (float)armor, (float)armorToughness));

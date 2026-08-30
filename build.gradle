@@ -131,6 +131,7 @@ dependencies {
     compileOnly(annotationProcessor("com.github.bawnorton.mixinsquared:mixinsquared-common:${mixinsquared_version}"))
     compileOnly "curse.maven:jade-324717:${jadeversion}"
     localRuntime "curse.maven:jade-324717:${jadeversion}"
+    localRuntime "curse.maven:attribute-setter-1064034:${attribute_setterversion}"
     compileOnly "curse.maven:simply-swords-659887:${simplyswordsversion}"
     localRuntime "curse.maven:simply-swords-659887:${simplyswordsversion}"
     compileOnly ("curse.maven:simply-more-1095252:${simplymoreversion}")
